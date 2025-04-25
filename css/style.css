@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #fc9beb;
+    padding: 20px 40px;
+}
+body {
+    background-color:rgb(250, 255, 177);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.logo img {
+    width: 20%;
+    height: auto;
+    display: block;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 102, 186);
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: deeppink;
+}   
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: rgb(252, 173, 239);
+    border-radius: 10px;
+    box-shadow: rgb(252, 227, 246);
+}
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  
+  .gustos {
+    width: 300px;
+    background-color: #ffe6f7;
+    padding: 20px;
+    border-right: 2px solid palevioletred;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  
+  .contenido {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  
+  .gustos h1,
+  .gustos h2 {
+    color: #f17bbc;
+  }
+  
+  .gustos-item p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+
+  .video-fav {
+    background-color: #fcd6f6; 
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid palevioletred;
+  }
+  
+  .video-fav h1 {
+    color: #f770e5; 
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .video-fav a {
+    color: #d63384; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .video-fav a:hover {
+    color: #ff66b2; 
+  }
