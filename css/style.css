@@ -35,3 +35,10 @@ nav ul li a {
 nav ul li a:hover {
   background-color: deeppink;
 }  
+section {
+  padding: 40px;
+  margin: 20px;
+  background-color: rgb(252, 173, 239);
+  border-radius: 10px;
+  box-shadow: rgb(252, 227, 246);
+}
