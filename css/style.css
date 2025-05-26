@@ -10,3 +10,8 @@ header{
   background-color: #fc9beb;
   padding: 20px 40px;
 }
+.logo img {
+  width: 20%;
+  height: auto;
+  display: block;
+}
