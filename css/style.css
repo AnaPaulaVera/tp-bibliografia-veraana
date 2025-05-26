@@ -32,3 +32,6 @@ nav ul li a {
   border-radius: 8px;
   transition: background-color 0.3s;
 }
+nav ul li a:hover {
+  background-color: deeppink;
+}  
