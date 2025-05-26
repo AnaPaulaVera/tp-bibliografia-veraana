@@ -23,3 +23,12 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(247, 102, 186);
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
