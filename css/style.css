@@ -66,3 +66,7 @@ section {
   .gustos h2 {
     color: #f17bbc;
   }
+  .gustos-item p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
