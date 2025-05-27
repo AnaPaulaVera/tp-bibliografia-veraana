@@ -70,3 +70,10 @@ section {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+  .video-fav {
+    background-color: #fcd6f6; 
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid palevioletred;
+  }
