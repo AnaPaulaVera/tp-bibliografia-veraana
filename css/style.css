@@ -46,4 +46,13 @@ section {
     display: flex;
     min-height: 100vh;
   }
-  
+  .gustos {
+    width: 300px;
+    background-color: #ffe6f7;
+    padding: 20px;
+    border-right: 2px solid palevioletred;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
