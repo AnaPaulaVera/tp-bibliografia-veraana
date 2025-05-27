@@ -62,3 +62,7 @@ section {
     padding: 40px;
   }
   
+  .gustos h1,
+  .gustos h2 {
+    color: #f17bbc;
+  }
