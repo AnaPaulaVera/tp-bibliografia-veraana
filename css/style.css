@@ -42,3 +42,8 @@ section {
   border-radius: 10px;
   box-shadow: rgb(252, 227, 246);
 }
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
